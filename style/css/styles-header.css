@@ -1,0 +1,258 @@
+body{
+    font-family: 'Myriad Pro';
+    background: #ffffff;
+}
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.clearfix {
+    clear: both;
+    display: block;
+}
+.center{
+    margin: 0px auto;
+}
+ol, ul, li {
+    list-style: none;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+h2,h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.col-md-6,.col-lg-6,.col-sm-6,.col-sm-1,.col-md-1,.col-lg-1,.col-sm-2,.col-md-2,.col-lg-2,.col-sm-3,.col-md-3,.col-lg-3,.col-sm-4,.col-md-4,.col-lg-4,.col-sm-5,.col-md-5,.col-lg-5{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+/* styles for header */
+.topbar{
+    background: #333333;
+    font-size: 13px;
+}
+.topbar a{
+    color: #999999;
+    padding-top: 16px;
+    display: block;
+    height: 45px;
+}
+.cart{
+    margin-right: 10px;
+}
+.topbar i {
+    margin-left: 5px;
+    font-size: 15px;
+}
+.topbar a:hover{
+    background: #00c8c8;
+    text-decoration: none;
+    color: #ffffff;
+}
+.topbar .col-md-2 ,.col-md-3{
+    text-align: center;
+}
+/* style for above-topbar */
+@media (min-width: 576px) { 
+    .above-topbar{
+        padding: 30px 150px;
+        z-index: 100;
+        position: relative;
+    }
+}
+@media (min-width: 768px) {
+    .above-topbar{
+        padding: 30px 50px;
+    }
+}
+@media (min-width: 992px) {
+    .above-topbar{
+        padding: 30px 50px;
+    }
+}
+@media (min-width: 1200px) {
+    .above-topbar{
+        padding: 30px 100px;
+    }
+}
+.nav>li>a {
+    padding: 0px 15px;
+}
+.nav li a:hover {
+    background: none;
+}
+.menu-main>li>a{
+    color: #222222;
+    font-weight: bold;
+}
+.nav a:hover{
+    color: #00c8c8;
+}
+.above-topbar-background{
+    background: #f8f8f8;
+}
+.search{
+    padding: 0px 5px;
+    border: 1px solid #e7e7e7;
+    margin-left: 40px;
+}
+#info-search{
+    border: none;
+    background: #f8f8f8;
+}
+.dropdown-item{
+    width: 365px;
+    margin-top: 5px;
+    border-right: 2px solid #ececec;
+    border-left: 2px solid #ececec;
+    border-bottom: 2px solid #ececec;
+    border-top: 1px solid #f8f8f8;
+    padding-bottom: 25px;
+    background: #f8f8f8;
+    display: none;
+    position: absolute; 
+    color: #575153;
+    z-index: 105;
+}
+.above-topbar .nav li:hover .dropdown-item {
+    display: block;
+}
+.box-item{
+    width: 180px;
+    height: 250px;
+    padding-top: 23px;
+    padding-left: 32px;
+    margin-bottom: 30px;
+    display: block;
+}
+.box-item h5{
+    margin-bottom: 20px;
+    color: #575153;
+}
+.box-item a{
+    color: #727272;
+}
+.box-item li{
+    margin-bottom: 10px;
+}
+.banner{
+    width: 300px;
+    height: 150px;
+    background: #333333;
+    margin: 0px auto;
+    text-align: center;
+}
+.banner a{
+    text-decoration: none;
+}
+.banner p{
+    font-size: 30px;
+    color: #ffffff;
+}
+.sale{
+    margin: 30px auto;
+}
+/* slider */
+.slider{
+    position: relative;
+    top: -100px;
+    z-index: 90;
+}
+.textave{
+    position: absolute;
+    z-index: 100;
+}
+.btn{
+    background: #f8f8f8;
+    border: 2px solid #737373;
+    border-radius: 0px; 
+    color: #454647;
+    letter-spacing: 3px;
+}
+.btn-in-slider{
+    width: 345px;
+    height: 60px;
+    position: absolute;
+    z-index: 105;
+    right: 240px;
+    bottom: 80px;
+}
+.btn:hover{
+    color: #ffffff;
+    background: #00c8c8;
+    border: none;
+}
+
+/* style footer */
+footer{
+    background: #f8f8f8;
+    font-size: 14px;
+    padding-top: 60px;
+}
+.top-footer{
+    padding-bottom: 40px;
+    color: #727272;
+}
+.item-footer{
+    text-align: left;
+}
+.item-footer li{
+    margin: 5px 0px;
+}
+.item-footer:last-of-type{
+    padding-right: 0px;
+}
+.item-footer:first-of-type{
+    padding-left: 0px;
+}
+.banners{
+    margin-top: 50px;
+}
+.banner-details{
+    height: 200px;
+    text-align: center;
+}
+.banner-details h3,.banner-details p{
+    font-size: 30px;
+}
+.banner-details img{
+    padding-top: 85px;
+}
+.banner-details-1{
+    background: #333333;
+    padding-top: 70px;
+    padding-left: 0px;
+}
+.banner-details-2{
+    background-color: #00c8c8;
+}
+.col-space{
+    width: 5px;
+}
+/* copy right */
+.copyright{
+    background: #333333; 
+    color: #777777;
+ }
+ .copyright p{
+     margin: 10px 0px;
+ }
+ .copyright .col-lg-2,.copyright .col-lg-3{
+     padding: 0px;
+     text-align: right;
+ }
+ .copyright .col-lg-7{
+     padding: 0px;
+     text-align: left;
+ }
