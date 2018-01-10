@@ -1,0 +1,63 @@
+.photo-main{
+    position: relative;
+    z-index: 99;
+    padding-bottom: 50px;
+}
+.text-brand{
+    position: absolute;
+    top: 105px;
+    left: 465px;
+    color: #ffffff;
+    text-align: center;
+}
+.text-brand h4 {
+    font-size: 25px;
+}
+.text-brand h2 {
+    font-size: 36px;
+    letter-spacing: 3px;
+}
+.ave-text{
+    position: absolute;
+    top: 0px;
+    opacity: 0.3;
+}
+img.bg {
+    position: absolute;
+    top: 0px;
+    opacity: 0.5;
+}
+.content-the-brand{
+    margin-bottom: 80px;
+}
+.content-the-brand h3{
+    color: #575153;
+}
+.content-the-brand h5{
+    color: #727272;
+}
+.content-the-brand p{
+    color: #8e8c8c;
+}
+.intro{
+    margin-bottom: 50px;
+}
+.content-intro{
+    padding-top: 35px;
+}
+.padding-left{
+    padding-left: 15px;
+}
+.padding-right{
+    padding-right: 15px;
+}
+.our-values img,.ethical-trading img{
+    margin-bottom: 20px;
+}
+.ethical-trading{
+    position: relative;
+    top: -150px;
+}
+.awards{
+    margin-top: -110px;
+}
