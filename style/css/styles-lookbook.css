@@ -1,0 +1,80 @@
+.lookbook-item-type1 img{
+    width: 275px;
+}
+.lookbook-item-type2 img{
+    width: 569px;
+}
+.lookbook-item-type3 img{
+    width: 865px;
+}
+.text-ref{
+    font-size: 20px;
+    color: #9a9a9a;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+.col1 sup{
+    font-size: 12px;
+}
+.col2-detail{
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    text-align: left;
+}
+.content-col2{
+    width: 220px;
+}
+.col3-detail-content{
+    width: 340px;
+}
+.lookbook-content h2{
+    font-size: 30px;
+    color: #575153;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.lookbook-content h4{
+    text-transform: uppercase;
+    padding: 5px 0px;
+    font-size: 13px;
+    color: #727272;
+    letter-spacing: 1px;
+}
+.lookbook-content p{
+    color: #8e8c8c;
+}
+.view-lookbook {
+    height: 45px;
+    width: 145px;
+    margin-top: 15px;
+}
+.row-lookbook{
+    margin-bottom: 15px;
+}
+.lookbook-content{
+    margin-bottom: 60px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid #eeeeee;
+}
+.right-content-col3{
+    position: absolute;
+    top: 170px;
+    right: 30px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #00c8c8;
+    font-weight: bold;
+}
+.right-content-col3 span{
+    font-size: 130px;
+    line-height: 0px;
+    letter-spacing: 10px;
+    position: relative;
+    right: -17px;
+}
+.right-content-col3 p{
+    color: #00c8c8;
+    font-size: 55px;
+}
