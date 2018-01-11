@@ -1,0 +1,67 @@
+.text-localstores{
+    top: 120px;
+    left: 540px;
+}
+.location-item{
+    padding-right: 15px;
+}
+.content-local-stores{
+    margin-bottom: 50px;
+}
+.content-local-stores h3,.location-localstores h3{
+    color: #575153;
+    margin-bottom: 25px;
+}
+.content-local-stores h4,.location-localstores h4{
+    color: #727272;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.content-local-stores span,.location-localstores span,.address-info{
+    color: #8e8c8c;
+}
+.btn-viewdetails{
+    margin-top: 20px;
+    width: 210px;
+    height: 50px;
+}
+.location-localstores{
+    background: #f8f8f8;
+    margin-bottom: 100px;
+}
+.map{
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+iframe{
+    border: none;
+}
+.detail-location-localstores{
+    padding-left: 15px;
+    padding-top: 40px;
+}
+.address-info{
+    margin-top: 15px;
+}
+.address-info ul li{
+    margin-bottom: 10px;
+}
+.address-info .fa{
+    margin-right: 10px;
+}
+.contact-us{
+    margin-top: 50px;
+}
+.contact-us i{
+    color: #ffffff;
+    font-size: 20px;
+}
+.contact-us li{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background: #575153;
+    text-align: center;
+    padding-top: 7px;
+}

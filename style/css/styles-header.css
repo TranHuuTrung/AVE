@@ -41,6 +41,7 @@ h2,h3{
 .topbar{
     background: #333333;
     font-size: 13px;
+    text-align: center;
 }
 .topbar a{
     color: #999999;
@@ -59,9 +60,6 @@ h2,h3{
     background: #00c8c8;
     text-decoration: none;
     color: #ffffff;
-}
-.topbar .col-md-2 ,.col-md-3{
-    text-align: center;
 }
 /* style for above-topbar */
 @media (min-width: 576px) { 

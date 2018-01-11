@@ -19,10 +19,10 @@
     <header>
         <div class="topbar">
             <div class="container row center">
-                <div class="col-sm-3 col-md-3 col-lg-3"><a href="#"> Currency : GBP  <i class="fa fa-angle-down"></i> </a></div>
-                <div class="col-sm-2 col-md-3 col-lg-3"></div>
-                <div class="col-sm-2 col-md-2 col-lg-2"><a href="#">Register</a></div>
-                <div class="col-sm-2 col-md-2 col-lg-2"><a href="#">Sign In</a></div>
+                <div class="col-sm-2 col-md-2 col-lg-2"><a href="#"> Currency : GBP  <i class="fa fa-angle-down"></i> </a></div>
+                <div class="col-sm-6 col-md-6 col-lg-6"></div>
+                <div class="col-sm-1 col-md-1 col-lg-1"><a href="#">Register</a></div>
+                <div class="col-sm-1 col-md-1 col-lg-1"><a href="#">Sign In</a></div>
                 <div class="col-sm-2 col-md-2 col-lg-2">
                     <a href="#"><i class="fa fa-shopping-cart cart" aria-hidden="true"></i>empty <i class="fa fa-angle-down"></i></a>
                 </div>
@@ -185,10 +185,95 @@
                 </ul>
             </div>
         </div><!-- end above-topbar -->
-
+        <div class="photo-main">
+            <img style="width: 100%;" src="images/brand/photo-main.png" alt="photo-main">
+            <img style="width: 100%;" class="bg" src="images/brand/bg-header.png" alt="bg">
+            <img style="width: 100%;" class="ave-text" src="images/brand/brand-ave.png" alt="ave-brand">
+            <div class="text-brand text-localstores">
+                <h2><strong>LOCAL </strong>STORES</h2>
+                <h4>FIND A STORE NEAR YOU</h4>
+            </div>
+        </div>
     </header>
-
-
+    <section class="container row center content-local-stores">
+        <div class="location-item col-xs-4 col-sm-4 col-md-4 col-lg-4">
+            <div class="content-location">
+                <h3>LONDON</h3>
+                <h4>180-182 Regent Street, London, W1B 5BT</h4>
+                <span>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing esi elit.
+                    Vivamus at arcu sem. Vestibulum ornare eleifendit massa, nec
+                    tempor odio. Fusce posuere nunc iaculis ligula viverra iaculis.
+                    Aliquam erat volutpat.
+                </span>
+            </div>
+            <input type="button" value="VIEW DATAILS" class="btn btn-viewdetails">
+            <!-- <button class="view-location"><a href="#">VIEW DETAILS</a></button> -->
+        </div>
+        <div class="location-item col-xs-4 col-sm-4 col-md-4 col-lg-4">
+            <div class="content-location">
+                <h3>NEW YORK</h3>
+                <h4>109 Columbus Circle, New York, NY 10023</h4>
+                <span>
+                    Nunc non posuere nisl. Etiam finibus vel dui nec lobortis.
+                    Aliquam egestas, sem quis condimentum venenatis, erat leo 
+                    fermentum dolor, non sollicitudin massa mi eu nibh. Nullam vitae 
+                    aliquam dui, non sodales nisl.
+                </span>
+            </div>
+            <input type="button" value="VIEW DATAILS" class="btn btn-viewdetails">
+        </div>
+        <div class="location-item col-xs-4 col-sm-4 col-md-4 col-lg-4">
+            <div class="content-location">
+                <h3>PARIS</h3>
+                <h4>2133 Rue Saint-Honoré, 75001 Paris</h4>
+                <span>
+                    Ut interdum fermentum blandit. Donec nec lacus egetit mi rhoncus eleifend. 
+                    Curabitur laoreet nisl eget rutruml auctor. Vestibulum ante ipsum primis in 
+                    faucibus orcip luctus et ultrices posuere cubilia curae cras ligula.
+                </span>
+            </div>
+            <input type="button" value="VIEW DATAILS" class="btn btn-viewdetails">
+        </div>
+    </section>
+    <section class="container-fluid row center location-localstores">
+       <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 map">
+            <iframe
+                width="100%"
+                height="500"
+                src="https://maps.google.co.uk/maps?f=q&amp;
+                source=s_q&amp;hl=en&amp;geocode=&amp;
+                q=charing+cross+road+london&amp;output=embed">
+            </iframe> 
+       </div>
+       <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 detail-location-localstores">
+            <h3>LONDON</h3>
+            <h4>180-182 REGENT STREET, LONDON, W1B</h4>
+            <span>
+                Lorem ipsum dolor sit amet, consectetur adipiscing esi elit. 
+                Vivamus at arcu sem. Vestibulum ornare eleifendit massa, nec 
+                tempor odio. Fusce posuere nunc iaculis ligula viverra iaculis. 
+                Aliquam erat volutpat.
+            </span>
+            <div class="address-info">
+                <ul>
+                    <li><i class="fa fa-map-marker" aria-hidden="true"></i> 180-182 Regent Street, London, W1B 5BT</li>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i> 0123-456-789</li>
+                    <li><i class="fa fa-link" aria-hidden="true"></i>www.yourwebsite.com</li>
+                    <li><i class="fa fa-envelope-o" aria-hidden="true"></i>support@yourwebsite.com</li>
+                    <li><i class="fa fa-clock-o" aria-hidden="true"></i>Monday-Friday: 9am to 6pm  Saturday: 10am to 6pm  Sunday: 10am to 2pm</li>
+                </ul>
+            </div>
+            <div class="contact-us">
+                <ul>
+                    <li class="float-left"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li class="float-left"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li class="float-left"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li class="float-left"><a href="#"><i class="fa fa-pinterest " aria-hidden="true"></i></a></li>
+                </ul>
+            </div> 
+       </div>
+    </section>
     <footer class="container-fluid clearfix">
         <section class="container top-footer">
             <div class="row center">
