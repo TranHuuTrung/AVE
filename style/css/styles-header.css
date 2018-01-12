@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     font-family: 'Myriad Pro';
     background: #ffffff;
@@ -104,6 +107,7 @@ h2,h3{
     padding: 0px 5px;
     border: 1px solid #e7e7e7;
     margin-left: 40px;
+    color: #989898;
 }
 #info-search{
     border: none;

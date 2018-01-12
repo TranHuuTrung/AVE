@@ -4,9 +4,10 @@
     padding-bottom: 50px;
 }
 .text-brand{
+    width: 100%;
     position: absolute;
     top: 105px;
-    left: 465px;
+    margin: 0px auto;
     color: #ffffff;
     text-align: center;
 }
