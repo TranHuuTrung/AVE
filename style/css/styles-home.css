@@ -190,11 +190,34 @@ sup{
 .item-look-book{
   position: relative;
 }
+.view{
+  font-size: 16px;
+  width: 160px;
+  padding: 15px 0px;
+  margin-top: 5px;
+}
+.above-footer{
+  margin-bottom: 40px;
+}
+.item-above-footer{
+  height: 400px;
+  /* max-width: 350px;
+  min-width: 200px; */
+  margin-bottom: 20px;
+  background: #f8f8f8;
+}
+.item-above-footer img{
+  min-width: 250px;
+  max-width: 450px;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
 .lookbook-detail {
   width: 240px;
   text-align: right;
   position: absolute;
-  bottom: 110px;
+  bottom: 60px;
   left: 180px;
 }
 .lookbook-detail span {
@@ -213,12 +236,48 @@ sup{
   margin-bottom: 30px;
   color: #727272;
 }
-.view{
-  font-size: 16px;
-  width: 160px;
-  z-index: 150;
-  padding: 15px 0px;
-  position: absolute;
-  bottom: 50px;
-  right: 70px;
+@media screen and (min-width: 610px) and (max-width: 767px){
+  .lookbook-detail {
+    width: 350px;
+    left: 245px;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+  .you{
+    width: 50%;
+    margin-left: 25%;
+  }
+  .men{
+    width: 49%;
+    margin-right: 2%;
+  }
+  .women{
+    width: 49%;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1023px){
+   .item-above-footer{
+     width: 32%;
+   }
+   .men,.women{
+     margin-right: 2%;
+   }
+   .lookbook-detail {
+    width: 200px;
+    left: 110px;
+   }
+   .lookbook-detail h2 {
+    font-size: 40px;
+   }
+   .lookbook-detail span {
+    font-size: 30px;
+   }
+}
+@media screen and (min-width: 1024px){
+  .item-above-footer{
+    width: 32%;
+  }
+  .men,.women{
+    margin-right: 2%;
+  }
 }
