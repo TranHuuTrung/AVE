@@ -65,16 +65,20 @@ h2,h3{
     color: #ffffff;
 }
 /* style for above-topbar */
-@media (min-width: 576px) { 
+/* @media (min-width: 576px) { 
     .above-topbar{
         padding: 30px 150px;
         z-index: 100;
         position: relative;
     }
+
+    .popular-nav li {
+        padding: 13px 0px;
+    }
 }
 @media (min-width: 768px) {
     .above-topbar{
-        padding: 30px 50px;
+        padding: 18px 50px;
     }
 }
 @media (min-width: 992px) {
@@ -86,6 +90,62 @@ h2,h3{
     .above-topbar{
         padding: 30px 100px;
     }
+} */
+@media (max-width: 480px){
+    .above-topbar{
+        padding: 30px 150px;
+        z-index: 100;
+        position: relative;
+    }
+    .banner-details h3,.banner-details p{
+        font-size: 25px;
+    }
+    .banner-details img {
+        padding-top: 60px;
+    }
+    .banner-details-1 {
+        margin-right: 0%;
+    }
+    .banner-details {
+        height: 160px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px){
+    .above-topbar{
+        padding: 30px 150px;
+        z-index: 100;
+        position: relative;
+    }
+    .banner-details{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .banner-details-1 {
+        margin-right: 0%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px){
+    .above-topbar{
+        padding: 30px 150px;
+        z-index: 100;
+        position: relative;
+    }
+    .banner-details{
+        width: 49%;
+    }
+}
+@media (min-width: 1024px) {
+    .above-topbar{
+        padding: 30px 100px;
+        z-index: 100;
+        position: relative;
+    }
+    .banner-details{
+        width: 49%;
+    }
+
 }
 .nav>li>a {
     padding: 0px 15px;
@@ -209,6 +269,7 @@ footer{
 }
 .item-footer{
     text-align: left;
+    padding-bottom: 20px;
 }
 .item-footer li{
     margin: 5px 0px;
@@ -236,6 +297,7 @@ footer{
     background: #333333;
     padding-top: 70px;
     padding-left: 0px;
+    margin-right: 2%;
 }
 .banner-details-2{
     background-color: #00c8c8;
@@ -259,3 +321,5 @@ footer{
      padding: 0px;
      text-align: left;
  }
+
+
