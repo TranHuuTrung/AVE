@@ -91,7 +91,7 @@ h2,h3{
         padding: 30px 100px;
     }
 } */
-@media (max-width: 480px){
+/* @media (max-width: 480px){
     .above-topbar{
         padding: 30px 150px;
         z-index: 100;
@@ -146,7 +146,7 @@ h2,h3{
         width: 49%;
     }
 
-}
+} */
 .nav>li>a {
     padding: 0px 15px;
 }
@@ -163,7 +163,7 @@ h2,h3{
 .above-topbar-background{
     background: #f8f8f8;
 }
-.search{
+/* .search{
     padding: 0px 5px;
     border: 1px solid #e7e7e7;
     margin-left: 40px;
@@ -172,7 +172,7 @@ h2,h3{
 #info-search{
     border: none;
     background: #f8f8f8;
-}
+} */
 .dropdown-item{
     width: 365px;
     margin-top: 5px;

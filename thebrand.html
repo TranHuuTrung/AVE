@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="style/css/styles-lookbook.css">
     <link rel="stylesheet" href="style/css/styles-product.css">
     <link rel="stylesheet" href="style/css/styles-localstores.css">
+    <link rel="stylesheet" href="style/css/style-responsive-header.css">
     <link rel="stylesheet" href="fonts/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 </head>
@@ -29,161 +30,165 @@
             </div>
         </div> <!-- end topbar -->
         <div class="above-topbar above-topbar-background">
-            <div class="container-fluid">
-                <div class="logo">
-                    <a href="./index.html"><img class="logo float-left" src="images/home/logo.png" alt="logo"></a>
-                 </div>
-                 <div class="search float-right">
+            <div class="container center">
+                <nav class="navbar navbar-header navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand logo" href="./index.html"><img src="images/home/logo.png" alt="logo"></a>
+                <button class="navbar-toggler button-dropdown-header" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-reorder"></i>
+                </button>
+                <div class="collapse navbar-collapse float-left" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto menu-main">    
+                        <li class="nav-item">
+                            <a class="nav-link" href="./product.html">MENS</br>    
+                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </a>
+                            <div class="dropdown-item">
+                                <div class="casuals box-item float-left">
+                                    <h5>CASUALS</h5>
+                                    <ul>
+                                        <li><a href="#">Jackets</a></li>
+                                        <li><a href="#">Hoodies & Sweatshirts</a></li>
+                                        <li><a href="#">Polo Shirts</a></li>
+                                        <li><a href="#">Sportswear</a></li>
+                                        <li><a href="#">Trousers & Chinos</a></li>
+                                        <li><a href="#">T-Shirts</a></li>
+                                    </ul>
+                                </div>
+                                <div class="formal box-item float-left">
+                                    <h5>FORMAL</h5>
+                                    <ul>
+                                        <li><a href="#">Jackets</a></li>
+                                        <li><a href="#">Shirts</a></li>
+                                        <li><a href="#">Suits</a></li>
+                                        <li><a href="#">Trousers</a></li>
+                                    </ul>
+                                </div>
+                                <div class="banner clearfix">
+                                    <a href="#">
+                                        <div class="sale">
+                                                <p>AUTUMN SALE!</p>
+                                                <p>UP TO 50% OFF</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./product.html">WOMENS</br>
+                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </a>
+                            <div class="dropdown-item">
+                                <div class="casuals box-item float-left">
+                                    <h5>CASUALS</h5>
+                                    <ul>
+                                        <li><a href="#">Jackets</a></li>
+                                        <li><a href="#">Hoodies & Sweatshirts</a></li>
+                                        <li><a href="#">Polo Shirts</a></li>
+                                        <li><a href="#">Sportswear</a></li>
+                                        <li><a href="#">Trousers & Chinos</a></li>
+                                        <li><a href="#">T-Shirts</a></li>
+                                    </ul>
+                                </div>
+                                <div class="formal box-item float-left">
+                                    <h5>FORMAL</h5>
+                                    <ul>
+                                        <li><a href="#">Jackets</a></li>
+                                        <li><a href="#">Shirts</a></li>
+                                        <li><a href="#">Suits</a></li>
+                                        <li><a href="#">Trousers</a></li>
+                                    </ul>
+                                </div>
+                                <div class="banner clearfix">
+                                    <a href="#">
+                                        <div class="sale">
+                                                <p>AUTUMN SALE!</p>
+                                                <p>UP TO 50% OFF</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./thebrand.html">THE BRAND</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./local-stores.html">LOCAL STORES</br>
+                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </a>
+                            <div class="dropdown-item">
+                                <div class="casuals box-item float-left">
+                                    <h5>CASUALS</h5>
+                                    <ul>
+                                        <li><a href="#">Jackets</a></li>
+                                        <li><a href="#">Hoodies & Sweatshirts</a></li>
+                                        <li><a href="#">Polo Shirts</a></li>
+                                        <li><a href="#">Sportswear</a></li>
+                                        <li><a href="#">Trousers & Chinos</a></li>
+                                        <li><a href="#">T-Shirts</a></li>
+                                    </ul>
+                                </div>
+                                <div class="formal box-item float-left">
+                                    <h5>FORMAL</h5>
+                                    <ul>
+                                        <li><a href="#">Jackets</a></li>
+                                        <li><a href="#">Shirts</a></li>
+                                        <li><a href="#">Suits</a></li>
+                                        <li><a href="#">Trousers</a></li>
+                                    </ul>
+                                </div>
+                                <div class="banner clearfix">
+                                    <a href="#">
+                                        <div class="sale">
+                                                <p>AUTUMN SALE!</p>
+                                                <p>UP TO 50% OFF</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./lookbook.html">LOOKBOOK</br>
+                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </a>
+                            <div class="dropdown-item">
+                                <div class="casuals box-item float-left">
+                                    <h5>CASUALS</h5>
+                                    <ul>
+                                        <li><a href="#">Jackets</a></li>
+                                        <li><a href="#">Hoodies & Sweatshirts</a></li>
+                                        <li><a href="#">Polo Shirts</a></li>
+                                        <li><a href="#">Sportswear</a></li>
+                                        <li><a href="#">Trousers & Chinos</a></li>
+                                        <li><a href="#">T-Shirts</a></li>
+                                    </ul>
+                                </div>
+                                <div class="formal box-item float-left">
+                                    <h5>FORMAL</h5>
+                                    <ul>
+                                        <li><a href="#">Jackets</a></li>
+                                        <li><a href="#">Shirts</a></li>
+                                        <li><a href="#">Suits</a></li>
+                                        <li><a href="#">Trousers</a></li>
+                                    </ul>
+                                </div>
+                                <div class="banner clearfix">
+                                    <a href="#">
+                                        <div class="sale">
+                                                <p>AUTUMN SALE!</p>
+                                                <p>UP TO 50% OFF</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="search float-left">
                     <input type="text" id="info-search" placeholder="Search...">
                     <i class="fa fa-search" aria-hidden="true"></i>
-                    <!-- <a href="#"><img src="images/home/icon-search.png" alt="search"></a> -->
-                 </div>
-                 <ul class="nav menu-main center float-right">
-                    <li class="nav-item float-right">
-                        <a class="nav-link" href="./lookbook.html">LOOKBOOK</br>
-                            <i class="fa fa-angle-down" aria-hidden="true"></i>
-                        </a>
-                        <div class="dropdown-item">
-                            <div class="casuals box-item float-left">
-                                <h5>CASUALS</h5>
-                                <ul>
-                                    <li><a href="#">Jackets</a></li>
-                                    <li><a href="#">Hoodies & Sweatshirts</a></li>
-                                    <li><a href="#">Polo Shirts</a></li>
-                                    <li><a href="#">Sportswear</a></li>
-                                    <li><a href="#">Trousers & Chinos</a></li>
-                                    <li><a href="#">T-Shirts</a></li>
-                                </ul>
-                            </div>
-                            <div class="formal box-item float-left">
-                                <h5>FORMAL</h5>
-                                <ul>
-                                    <li><a href="#">Jackets</a></li>
-                                    <li><a href="#">Shirts</a></li>
-                                    <li><a href="#">Suits</a></li>
-                                    <li><a href="#">Trousers</a></li>
-                                </ul>
-                            </div>
-                            <div class="banner clearfix">
-                                <a href="#">
-                                    <div class="sale">
-                                            <p>AUTUMN SALE!</p>
-                                            <p>UP TO 50% OFF</p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="nav-item float-right">
-                        <a class="nav-link" href="./local-stores.html">LOCAL STORES</br>
-                            <i class="fa fa-angle-down" aria-hidden="true"></i>
-                        </a>
-                        <div class="dropdown-item">
-                            <div class="casuals box-item float-left">
-                                <h5>CASUALS</h5>
-                                <ul>
-                                    <li><a href="#">Jackets</a></li>
-                                    <li><a href="#">Hoodies & Sweatshirts</a></li>
-                                    <li><a href="#">Polo Shirts</a></li>
-                                    <li><a href="#">Sportswear</a></li>
-                                    <li><a href="#">Trousers & Chinos</a></li>
-                                    <li><a href="#">T-Shirts</a></li>
-                                </ul>
-                            </div>
-                            <div class="formal box-item float-left">
-                                <h5>FORMAL</h5>
-                                <ul>
-                                    <li><a href="#">Jackets</a></li>
-                                    <li><a href="#">Shirts</a></li>
-                                    <li><a href="#">Suits</a></li>
-                                    <li><a href="#">Trousers</a></li>
-                                </ul>
-                            </div>
-                            <div class="banner clearfix">
-                                <a href="#">
-                                    <div class="sale">
-                                            <p>AUTUMN SALE!</p>
-                                            <p>UP TO 50% OFF</p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="nav-item float-right">
-                        <a class="nav-link" href="./thebrand.html">THE BRAND</a>
-                    </li>
-                    <li class="nav-item float-right">
-                        <a class="nav-link" href="./product.html">WOMENS</br>
-                            <i class="fa fa-angle-down" aria-hidden="true"></i>
-                        </a>
-                        <div class="dropdown-item">
-                            <div class="casuals box-item float-left">
-                                <h5>CASUALS</h5>
-                                <ul>
-                                    <li><a href="#">Jackets</a></li>
-                                    <li><a href="#">Hoodies & Sweatshirts</a></li>
-                                    <li><a href="#">Polo Shirts</a></li>
-                                    <li><a href="#">Sportswear</a></li>
-                                    <li><a href="#">Trousers & Chinos</a></li>
-                                    <li><a href="#">T-Shirts</a></li>
-                                </ul>
-                            </div>
-                            <div class="formal box-item float-left">
-                                <h5>FORMAL</h5>
-                                <ul>
-                                    <li><a href="#">Jackets</a></li>
-                                    <li><a href="#">Shirts</a></li>
-                                    <li><a href="#">Suits</a></li>
-                                    <li><a href="#">Trousers</a></li>
-                                </ul>
-                            </div>
-                            <div class="banner clearfix">
-                                <a href="#">
-                                    <div class="sale">
-                                            <p>AUTUMN SALE!</p>
-                                            <p>UP TO 50% OFF</p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="nav-item float-right">
-                        <a class="nav-link" href="./product.html">MENS</br>
-                            <i class="fa fa-angle-down" aria-hidden="true"></i>
-                        </a>
-                        <div class="dropdown-item">
-                            <div class="casuals box-item float-left">
-                                <h5>CASUALS</h5>
-                                <ul>
-                                    <li><a href="#">Jackets</a></li>
-                                    <li><a href="#">Hoodies & Sweatshirts</a></li>
-                                    <li><a href="#">Polo Shirts</a></li>
-                                    <li><a href="#">Sportswear</a></li>
-                                    <li><a href="#">Trousers & Chinos</a></li>
-                                    <li><a href="#">T-Shirts</a></li>
-                                </ul>
-                            </div>
-                            <div class="formal box-item float-left">
-                                <h5>FORMAL</h5>
-                                <ul>
-                                    <li><a href="#">Jackets</a></li>
-                                    <li><a href="#">Shirts</a></li>
-                                    <li><a href="#">Suits</a></li>
-                                    <li><a href="#">Trousers</a></li>
-                                </ul>
-                            </div>
-                            <div class="banner clearfix">
-                                <a href="#">
-                                    <div class="sale">
-                                            <p>AUTUMN SALE!</p>
-                                            <p>UP TO 50% OFF</p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+                </div>
+                </nav>
+            </div> 
         </div><!-- end above-topbar -->
         <!-- add photo main in header -->
         <div class="photo-main">
