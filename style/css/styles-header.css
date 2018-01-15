@@ -176,9 +176,7 @@ h2,h3{
 .dropdown-item{
     width: 365px;
     margin-top: 5px;
-    border-right: 2px solid #ececec;
-    border-left: 2px solid #ececec;
-    border-bottom: 2px solid #ececec;
+    box-shadow: 0px 10px 15px 0px #dbdbdb;
     border-top: 1px solid #f8f8f8;
     padding-bottom: 25px;
     background: #f8f8f8;
@@ -186,6 +184,7 @@ h2,h3{
     position: absolute; 
     color: #575153;
     z-index: 105;
+    margin: 5px 5px 0;
 }
 .above-topbar .nav li:hover .dropdown-item {
     display: block;
@@ -212,7 +211,7 @@ h2,h3{
     width: 300px;
     height: 150px;
     background: #333333;
-    margin: 0px auto;
+    margin: 5px auto;
     text-align: center;
 }
 .banner a{
@@ -230,6 +229,9 @@ h2,h3{
     position: relative;
     top: -100px;
     z-index: 90;
+}
+.slider-in-home {
+    margin-bottom: -55px;
 }
 .textave{
     position: absolute;
